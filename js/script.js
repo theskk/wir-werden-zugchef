@@ -1,5 +1,5 @@
 $(function() {
-  zeigeStartBild("Weißt du eigentlich wo du hier gelandet bist!? Was willst du hier?","..Ich bin neu hier.");
+  zeigeStartBild("Weißt du eigentlich wo du hier gelandet bist!? Was willst du hier?","...Ich bin ein frischer Zugchef!");
 });
 
 function start() {
@@ -7,7 +7,7 @@ function start() {
 }
 
 function frage1() {
-  output("Neu hier? Du bist also die neue an der Bar?");
+  output("Frisch? Du bist also der/die neue im Zug?");
   input("Ja oder Nein?", antwort1);
 }
   
@@ -18,7 +18,7 @@ function antwort1(antwort) {
     frage3();
   } else {
     clear();
-    output("Ich verstehe dich nicht! Hau ab hier!");
+    output("Ich verstehe dich nicht! Verschwinde!");
   }  
 }
 
@@ -39,7 +39,7 @@ function antwort2(antwort) {
 }
 
 function frage4() {
-  output("Nagut " + name + ". Du weißt schon was mit der letzen passiert ist?");
+  output("Nagut " + name + ". Du weißt was du jetzt zu tun hast zu Dienstbeginn?");
   input("Ja oder Nein?", antwort3);
 }
 
@@ -55,8 +55,52 @@ function antwort3(antwort) {
 
 function frage5() {
   clear();
-  output("Ach ja? Was würdest du tun, wenn ein 3800 epos schwerer Tedaianer einen BowaBowa-Drink haben will?");
+  output("Ach ja? Was würdest du tun, wenn ein ICE auf freier Strecke zum stehen kommt?", antwort11);
 }
+
+function antwort11(antwort) {
+	if (antwort == "Durchsage") {
+		frage11();
+	} else if (antwort == "durchsage" {
+		frage11 ();
+		} else if (antwort == "eine Durchsage" {
+		frage11 ();
+		} else if (antwort == "eine durchsage" {
+		frage11 ();
+		} else if (antwort == "durchsage" {
+		frage11 ();
+		} else {
+		frage10 ();
+		}
+}
+
+function frage10() {
+  clear();
+  output("Bist du Dir sicher?Überleg nochmal?", antwort11);
+}
+function frage11() {
+  clear();
+  output("Wow gut! und ein rot leuchtendes Hauptsignal nennt sich wie?", antwort12);
+  
+}
+  
+  
+  function antwort11(antwort) {
+	if (antwort == "Durchsage") {
+		frage11();
+	} else if (antwort == "durchsage" {
+		frage11 ();
+		} else if (antwort == "eine Durchsage" {
+		frage11 ();
+		} else if (antwort == "eine durchsage" {
+		frage11 ();
+		} else if (antwort == "durchsage" {
+		frage11 ();
+		} else {
+		frage10 ();
+		}
+}
+
 
 function frage6() {
   clear();
@@ -103,4 +147,5 @@ function antwort7(antwort) {
     output(antwort + ". Hätte dich 3 Jahre älter geschätzt. Siehst aus, als wenn du schon ein paar Abenteuer hinter dir hast!");
   }
 }
+
 
