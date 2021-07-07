@@ -1,11 +1,11 @@
-# wir-werden-zugchef
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Space Bar Keeper</title>
+    <title>Wir werden Zugchef:in</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -14,7 +14,7 @@
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <p class="navbar-brand">Space Bar Keeper </p> 
+        <p class="navbar-brand">Wir werden Zugchef:in </p> 
       </div>
     </nav>
     <div id="main" class="container-fluid">
