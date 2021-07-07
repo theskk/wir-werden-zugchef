@@ -77,7 +77,8 @@ function antwort11(antwort) {
 
 function frage10() {
   
-  output("Bist du Dir sicher?Überleg nochmal?", antwort11);
+  output("Bist du Dir sicher?Überleg nochmal?");
+	  input("Eine...", antwort11);
 }
 function frage11() {
   clear();
@@ -103,8 +104,27 @@ function frage11() {
 		}
 }
 
+function antwort12(antwort) {
+	if (antwort == "0") {
+		frage13();
+	} else {
+		frage14 ();
+		}
+}
 
-function frage6() {
+function frage13() {
+  clear();
+  output("Wenn du es nicht gehört hast, dann ist das besser so für dich. Wo kommst du eigentlich her?");
+  input("Wo kommst du her?", antwort15);
+}
+
+function frage14() {
+  clear();
+  output("Schalte kurz den Kopf an und schau ob noch jemand da ist?");
+  input("Und?", antwort12);
+}
+
+function frage13() {
   clear();
   output("Wenn du es nicht gehört hast, dann ist das besser so für dich. Wo kommst du eigentlich her?");
   input("Wo kommst du her?", antwort6);
