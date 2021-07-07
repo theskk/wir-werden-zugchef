@@ -55,19 +55,20 @@ function antwort3(antwort) {
 
 function frage5() {
   clear();
-  output("Ach ja? Was würdest du tun, wenn ein ICE auf freier Strecke zum stehen kommt?", antwort11);
+  output("Ach ja? Was würdest du tun, wenn ein ICE auf freier Strecke zum stehen kommt?");
+   input("Eine...?", antwort11);
 }
 
 function antwort11(antwort) {
 	if (antwort == "Durchsage") {
 		frage11();
-	} else if (antwort == "durchsage" {
+	} else if (antwort == "durchsage") {
 		frage11 ();
-		} else if (antwort == "eine Durchsage" {
+	} else if (antwort == "eine Durchsage") {
 		frage11 ();
-		} else if (antwort == "eine durchsage" {
+	} else if (antwort == "eine durchsage") {
 		frage11 ();
-		} else if (antwort == "durchsage" {
+	} else if (antwort == "durchsage") {
 		frage11 ();
 		} else {
 		frage10 ();
@@ -75,12 +76,13 @@ function antwort11(antwort) {
 }
 
 function frage10() {
-  clear();
+  
   output("Bist du Dir sicher?Überleg nochmal?", antwort11);
 }
 function frage11() {
   clear();
-  output("Wow gut! und ein rot leuchtendes Hauptsignal nennt sich wie?", antwort12);
+  output("Wow gut! und ein rot leuchtendes Hauptsignal nennt sich wie?");
+  input ("Hp", antwort12);
   
 }
   
@@ -88,13 +90,13 @@ function frage11() {
   function antwort11(antwort) {
 	if (antwort == "Durchsage") {
 		frage11();
-	} else if (antwort == "durchsage" {
+	} else if (antwort == "durchsage") {
 		frage11 ();
-		} else if (antwort == "eine Durchsage" {
+		} else if (antwort == "eine Durchsage") {
 		frage11 ();
-		} else if (antwort == "eine durchsage" {
+		} else if (antwort == "eine durchsage") {
 		frage11 ();
-		} else if (antwort == "durchsage" {
+		} else if (antwort == "durchsage") {
 		frage11 ();
 		} else {
 		frage10 ();
